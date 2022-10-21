@@ -1,0 +1,28 @@
+{
+  "name": "ms-aeronave-proyfinal",
+  "version": "1.0.0",
+  "description": "Microservicio Aeronave",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseLuisYujra/ms-Aeronave-ProyFinal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoseLuisYujra/ms-Aeronave-ProyFinal/issues"
+  },
+  "homepage": "https://github.com/JoseLuisYujra/ms-Aeronave-ProyFinal#readme",
+  "devDependencies": {
+    "husky": "^8.0.0",
+    "lint-staged": "^13.0.3"
+  },  
+  "lint-staged": {
+    "*.cs": "dotnet-format --include"
+  }
+}
