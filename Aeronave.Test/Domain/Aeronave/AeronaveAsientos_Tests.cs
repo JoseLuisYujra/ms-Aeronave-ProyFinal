@@ -17,7 +17,6 @@ namespace Aeronaves.Test.Domain.Aeronave {
       var ClaseAsientoTest = "Economica";
       var UbicacionTest = "Centro";
       var NroSillaTest = 1;
-      var EstadoAsientoTest = "Libre";
 
       var objAeronaveAsientos = new AeronaveAsientos();
 
