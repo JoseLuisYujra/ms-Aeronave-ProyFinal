@@ -7,4 +7,4 @@
 </a></p>
 
 ### Microservicio Aeronave
-Microservicio Aeronave desarrollado en .net core C#, contiene  las consideraciones de desarrollo de separacion en aplicacion, insfraestructura, uso de DDD, agregatte, domain events, uso de share kernel, broker RabbitMQ (publisher & consumer).
+Microservicio Aeronave desarrollado en .net core C#, contiene  las consideraciones de desarrollo donde se separa los proyectos de aplicacion, insfraestructura, uso de DDD, agregatte, domain events, uso de share kernel, broker RabbitMQ (publisher & consumer).
