@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\Joseluis\.nuget\packages\sharekernel\1.0.2\contentFiles\any\net6.0\images\shareICO.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ShareKernel" Version="1.0.2" />
+  </ItemGroup>
+
+</Project>
