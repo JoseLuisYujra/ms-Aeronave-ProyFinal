@@ -1,14 +1,15 @@
-name: Restore,Build,Test Net,Analyze en Sonar Cloud
+name: Restore,Build,Test y Analyze
 on:
   pull_request_review:
   pull_request:
     #types: [opened, synchronize, reopened]
     types: [ opened, reopened ]
     branches: 
-      - 'main'      
+      - main
+      
   jobs:
-  build:
-    name: Build
+   build:
+
     runs-on: windows-latest
     steps:
       - name: Set up JDK 11
@@ -17,8 +18,8 @@ on:
           java-version: 1.11
       #- uses: actions/checkout@v2
       - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
+        #with:
+        #  fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
       - name: Cache SonarCloud packages
         uses: actions/cache@v1
         with:
@@ -28,7 +29,7 @@ on:
       - name: Setup .NET
         uses: actions/setup-dotnet@v2
         with:
-             dotnet-version: 6.0.x
+          dotnet-version: 6.0.x
       - name: Restore dependencies
         run: dotnet restore      
       - name: Cache SonarCloud scanner
