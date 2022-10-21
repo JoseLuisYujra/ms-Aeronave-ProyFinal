@@ -1,14 +1,12 @@
 name: Restore,Build,Test Net,Analyze en Sonar Cloud
 on:
- pull_request_review:
+  pull_request_review:
   pull_request:
     #types: [opened, synchronize, reopened]
-    types: [ opened ]
+    types: [ opened, reopened ]
     branches: 
-      - 'main'
-      - 'develop'    
-
-jobs:
+      - 'main'      
+  jobs:
   build:
     name: Build
     runs-on: windows-latest
