@@ -1,5 +1,7 @@
 name: Restore,Build,Test y Analyze
 on:
+  push:
+    branches: [ "main" ]
   pull_request_review:
   pull_request:    
     types: [ opened, reopened ]
