@@ -1,13 +1,13 @@
 name: Restore,Build,Test Net,Analyze en Sonar Cloud
 on:
-  push:
-    branches:
-      - main
-      - develop
+ pull_request_review:
   pull_request:
     #types: [opened, synchronize, reopened]
     types: [ opened ]
-    
+    branches: 
+      - 'main'
+      - 'develop'    
+
 jobs:
   build:
     name: Build
@@ -28,12 +28,11 @@ jobs:
           key: ${{ runner.os }}-sonar
           restore-keys: ${{ runner.os }}-sonar
       - name: Setup .NET
-      uses: actions/setup-dotnet@v2
-      with:
-        dotnet-version: 6.0.x
+        uses: actions/setup-dotnet@v2
+        with:
+             dotnet-version: 6.0.x
       - name: Restore dependencies
-        run: dotnet restore
-      -    scanner
+        run: dotnet restore      
       - name: Cache SonarCloud scanner
         id: cache-sonar-scanner
         uses: actions/cache@v1
