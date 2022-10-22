@@ -10,6 +10,8 @@ env:
   DOCKER_FILE: 'AeroNaves.webApi/Dockerfile'
   AZURE_WEBAPP_NAME: 'aeronaveapi'
 
+  AZURE_WEB_APP: 'github.aeronavedocker'
+
 jobs:
 
   build-and-deploy-docker-image:
@@ -26,23 +28,37 @@ jobs:
       run: docker tag '${{env.DOCKER_IMAGE_NAME}}':latest '${{secrets.DOCKER_LOGIN}}'/'${{env.DOCKER_IMAGE_NAME}}':latest
     - name: Push the Docker image
       run: docker push '${{secrets.DOCKER_LOGIN}}'/'${{env.DOCKER_IMAGE_NAME}}':latest
-  
-  deploy:
-    permissions:
-      contents: none
-    runs-on: ubuntu-latest    
-    environment:
-      name: 'Development'
-      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
 
-    steps:
-      - name: Lowercase the repo name and username
-        run: echo "REPO=${GITHUB_REPOSITORY,,}" >>${GITHUB_ENV}
 
-      - name: Deploy to Azure Web App
-        id: deploy-to-webapp
-        uses: azure/webapps-deploy@v2
-        with:
-          app-name: ${{ env.AZURE_WEBAPP_NAME }}
-          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
-          images: 'ghcr.io/${{ env.REPO }}:${{ github.sha }}'
+#  deploy:
+#    permissions:
+#      contents: none
+#    runs-on: ubuntu-latest    
+#    environment:
+#      name: 'Development'
+#      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+#
+#    steps:
+#      - name: Lowercase the repo name and username
+#        run: echo "REPO=${GITHUB_REPOSITORY,,}" >>${GITHUB_ENV}
+#
+#      - name: Deploy to Azure Web App
+#        id: deploy-to-webapp
+#        uses: azure/webapps-deploy@v2
+#        with:
+#          app-name: ${{ env.AZURE_WEBAPP_NAME }}
+#          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+#          images: 'ghcr.io/${{ env.REPO }}:${{ github.sha }}'
+
+#      - name: Azure Login
+#      uses: azure/login@v1
+#      with:
+#        creds: ${{ secrets.AZURE_CREDENTIALS }}
+#    
+#    - name: Azure WebApp Deployment
+#      uses: Azure/webapps-deploy@v2
+#      with:
+#        # Name of the Azure Web App
+#        app-name: '${{env.AZURE_WEB_APP}}'
+#        # Applies to Web App Containers only: Specify the fully qualified container image(s) name. For example, 'myregistry.azurecr.io/nginx:latest' or 'python:3.7.2-alpine/'. For multi-container scenario multiple container image names can be provided (multi-line separated)
+#        images: '${{secrets.DOCKER_LOGIN}}/${{env.DOCKER_IMAGE_NAME}}:latest'
