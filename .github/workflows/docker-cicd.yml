@@ -7,6 +7,7 @@ on:
     branches: [ main ]
 env:  
   DOCKER_IMAGE_NAME: 'github.aeronavedocker'
+  DOCKER_FILE: 'AeroNaves.webApi/Dockerfile'
 jobs:
 
   build-and-deploy-docker-image:
@@ -16,7 +17,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag '${{env.DOCKER_IMAGE_NAME}}':latest
+      run: docker build . --file ${{env.DOCKER_IMAGE_NAME}} --tag '${{env.DOCKER_IMAGE_NAME}}':latest
     - name: Docker Login
       run: docker login --username '${{secrets.DOCKER_LOGIN}}' --password '${{secrets.DOCKER_PASSWORD}}'
     - name: Tag the Docker image
