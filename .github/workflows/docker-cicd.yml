@@ -29,7 +29,6 @@ jobs:
     - name: Push the Docker image
       run: docker push '${{secrets.DOCKER_LOGIN}}'/'${{env.DOCKER_IMAGE_NAME}}':latest
 
-
 #  deploy:
 #    permissions:
 #      contents: none
