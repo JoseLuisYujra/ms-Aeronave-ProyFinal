@@ -20,6 +20,7 @@ namespace AeroNaves.webApi.Controllers {
       _mediator = mediator;
     }
 
+    [Route("crear")]
     [HttpPost]
     public async Task<IActionResult> Create([FromBody] CrearAeronaveCommand command) {
       Guid id = await _mediator.Send(command);
