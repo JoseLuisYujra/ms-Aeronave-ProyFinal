@@ -24,7 +24,6 @@ namespace Aeronaves.Infraestructure.MemoryRepository {
     }
 
     public Task<List<Aeronave>> GetAll() {
-      //throw new NotImplementedException();            
       return Task.FromResult(_database.Aeronaves.ToList());
     }
 
