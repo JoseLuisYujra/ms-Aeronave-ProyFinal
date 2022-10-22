@@ -13,7 +13,6 @@ namespace Aeronaves.Infraestructure.EF.Context {
 
   public class ReadDbContext : DbContext {
     public virtual DbSet<AeronaveReadModel> Aeronave { set; get; }
-    //public virtual DbSet<AeronaveAsientosReadModel> AeronaveAsientos { set; get; }
 
     public ReadDbContext(DbContextOptions<ReadDbContext> options) : base(options) {
     }

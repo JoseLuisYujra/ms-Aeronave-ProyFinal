@@ -12,7 +12,7 @@ namespace Aeronaves.Test.Aplication.UseCases.Command {
     public void IsRequest_Valid() {
 
       //Arrange           
-      var CodAeronaveTest = "abc123";  //_aeoronaveService.GenerarIdAeronaveAsync();
+      var CodAeronaveTest = "abc123";
       var MarcaTest = "Boeing";
       var ModeloTest = "Boeing 2022";
       var NroAsientosTest = 60;
