@@ -28,22 +28,6 @@ namespace Aeronaves.Test.Domain.Event {
       var checkAeronaveAgregada = new AeronaveAgregada(IdAeronaveTest, CodAeronaveTest, MarcaTest, ModeloTest, NroAsientosTest, CapacidadCargaTest, CapTanqueCombustibleTest, AereopuertoEstacionamientoTest);
 
 
-
-      //Assert
-      /*
-      Assert.Equal(Guid.Empty, checkAeronaveAgregada.IdAeronave);
-      Assert.Null(checkAeronaveAgregada.CodAeronave);
-      Assert.Null(checkAeronaveAgregada.Marca);
-      Assert.Null(checkAeronaveAgregada.Modelo);
-      Assert.Equal(0, checkAeronaveAgregada.NroAsientos);
-      Assert.Equal(new decimal(0.0), checkAeronaveAgregada.CapacidadCarga);
-      Assert.Equal(new decimal(0.0), checkAeronaveAgregada.CapTanqueCombustible);
-      Assert.Null(checkAeronaveAgregada.AereopuertoEstacionamiento);
-      Assert.Null(checkAeronaveAgregada.EstadoAeronave);
-      Assert.Empty(checkAeronaveAgregada.DetalleAeronaveAsientos);
-      */
-
-
       Assert.IsType<Guid>(checkAeronaveAgregada.IdAeronave);
       Assert.Equal(CodAeronaveTest, checkAeronaveAgregada.CodAeronave);
       Assert.Equal(MarcaTest, checkAeronaveAgregada.Marca);
