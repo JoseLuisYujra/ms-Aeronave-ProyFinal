@@ -31,7 +31,7 @@ jobs:
       with:
         push: true
         tags: index.docker.io/${{ secrets.AzureAppService_ContainerUsername_9081e9c9b0b5428180302e996a1ee153 }}/github.aeronavedocker:${{ github.sha }}
-        file: ./Dockerfile
+        file: ./AeroNaves.webApi/Dockerfile
 
   deploy:
     runs-on: ubuntu-latest
