@@ -33,8 +33,6 @@ namespace Aeronaves.Test.Domain.Aeronave {
       var EstadoAsientoTest = "Libre";
       var objAeronaveAsientos = new AeronaveAsientos(AeronaveIdTest, ClaseAsientoTest, UbicacionTest, NroSillaTest, EstadoAsientoTest);
 
-      //Assert.Equal(Guid.Empty, objAeronaveAsientos.Id);
-      //Assert.Equal(Guid.Empty, objAeronaveAsientos.AeronaveId);
       Assert.NotNull(objAeronaveAsientos.ClaseAsiento);
       Assert.NotNull(objAeronaveAsientos.Ubicacion);
       Assert.IsType<int>(objAeronaveAsientos.NroSilla);

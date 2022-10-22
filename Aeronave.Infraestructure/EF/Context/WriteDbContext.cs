@@ -12,7 +12,6 @@ using Aeronaves.Infraestructure.EF.Config.WriteConfig;
 namespace Aeronaves.Infraestructure.EF.Context {
   public class WriteDbContext : DbContext {
     public virtual DbSet<Aeronave> Aeronave { get; set; }
-    //public virtual DbSet<AeronaveAsientos> AeronaveAsientos { get; set; }
 
     public WriteDbContext(DbContextOptions<WriteDbContext> options) : base(options) {
     }

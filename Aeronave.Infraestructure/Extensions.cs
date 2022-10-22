@@ -19,13 +19,6 @@ namespace Aeronaves.Infraestructure {
   public static class Extensions {
 
     public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration) {
-      //TODO: Eliminar despues. Solo para proposito de pruebas
-      /*
-      services.AddSingleton<MemoryDatabase>();
-
-      services.AddScoped<IAeronaveRepository, MemoryAeronaveRepository>();
-      services.AddScoped<IUnitOfWork, UnitOfWork>();
-      */
 
       services.AddApplication();
       services.AddMediatR(Assembly.GetExecutingAssembly());

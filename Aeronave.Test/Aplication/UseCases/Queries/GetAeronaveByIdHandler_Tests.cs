@@ -73,22 +73,6 @@ namespace Aeronaves.Test.Aplication.UseCases.Queries {
       _aeronaveRepository.Setup(mock => mock.FindByIdAsync(objRequest.Id))
         .Returns(Task.FromResult(aeronaveTest));
 
-
-      //objAeronave.AsientosAeronave.Add( new AeronaveAsientosDTO());
-      /*
-
-      objAeronave.AsientosAeronave.Add(new AeronaveAsientosDTO()
-                  {
-                       Id = Guid.NewGuid(),
-                       AeronaveId = IdTest,
-                       ClaseAsiento = ClaseAsientoTest,
-                       Ubicacion = UbicacionTest,
-                       NroSilla = NroSillaTest,
-                       EstadoAsiento = EstadoAsientoTest
-                   });
-
-      */
-
       foreach (var item in objAeronave.AsientosAeronave) {
         objAeronave.AsientosAeronave.Add(new AeronaveAsientosDTO() {
           Id = item.Id,
@@ -104,8 +88,6 @@ namespace Aeronaves.Test.Aplication.UseCases.Queries {
       Assert.Equal(IdTest, objRequest.Id);
       Assert.NotNull(result);
 
-
-      //Assert.IsType<int>(objAeronave.AsientosAeronave.Count);
 
     }
 

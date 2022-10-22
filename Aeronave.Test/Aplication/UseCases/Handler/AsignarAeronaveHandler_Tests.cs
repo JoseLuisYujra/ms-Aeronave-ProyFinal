@@ -27,25 +27,12 @@ namespace Aeronaves.Test.Aplication.UseCases.Handler {
     private readonly Mock<IAeronaveRepository> _aeronaveRepository;
     private readonly Mock<ILogger<AsignarAeronaveHandler>> _logger;
     private readonly Mock<IUnitOfWork> _unitOfWork;
-    /*
-            private Aeronave aeronaveTest;
-
-            private Guid idTest = Guid.NewGuid();
-            private string codAeronaveTest = "ABC123";
-            private string marcaTest = "Boeing";
-            private string modeloTest = "Boeing-2022";
-            private int nroasientosTest = 60;
-            private decimal capacidadcargaTest = 1000;
-            private decimal captanquecombustibleTest = 2000;
-            private string aereopuertoEstacionamientoTest = "Aeropuerto Internacional del Alto";
-    */
 
     public AsignarAeronaveHandler_Tests() {
 
       _aeronaveRepository = new Mock<IAeronaveRepository>();
       _logger = new Mock<ILogger<AsignarAeronaveHandler>>();
       _unitOfWork = new Mock<IUnitOfWork>();
-      //            aeronaveTest = new AeronaveFactory().Create(codAeronaveTest, marcaTest, modeloTest, nroasientosTest, capacidadcargaTest, captanquecombustibleTest, aereopuertoEstacionamientoTest);
     }
 
     [Fact]
@@ -72,34 +59,15 @@ namespace Aeronaves.Test.Aplication.UseCases.Handler {
       var tcs = new CancellationTokenSource(1000);
       var result = objHandler.Handle(objRequest, tcs.Token);
 
-
-      /*
-      _aeronaveRepository.Setup(mock => mock.FindByIdAsync(objRequest.Id))
-         .Returns(Task.FromResult(aeronaveTest));
-      _aeronaveRepository.Verify(mock => mock.FindByIdAsync(objRequest.Id));
-         aeronaveTest.ActualizarEstadoAeronave();
-         _aeronaveRepository.Setup(mock => mock.UpdateAsync(aeronaveTest));
-      //_aeronaveRepository.Verify(mock => mock.UpdateAsync(aeronaveTest), Times.Never);
-      _aeronaveRepository.Verify(mock => mock.UpdateAsync(It.IsAny<Aeronave>()), Times.Never);
-      _unitOfWork.Verify();
-      */
       _aeronaveRepository.Setup(mock => mock.FindByIdAsync(idTest))
          .Returns(Task.FromResult(aeronaveT));
       _aeronaveRepository.Verify(mock => mock.FindByIdAsync(idTest));
 
-      //aeronaveTest.ActualizarEstadoAeronave();
       aeronaveT.ActualizarEstadoAeronave();
 
       _aeronaveRepository.Setup(mock => mock.UpdateAsync(aeronaveT));
       _aeronaveRepository.Verify(mock => mock.UpdateAsync(aeronaveT), Times.Never);
       _unitOfWork.Verify(mock => mock.Commit(), Times.Never);
-
-      //_aeronaveRepository.Verify(mock => mock.UpdateAsync(aeronaveTest), Times.Never);
-      //_aeronaveRepository.Verify(mock => mock.UpdateAsync(It.IsAnyType<(aeronaveT), Times.Never);
-      //_unitOfWork.Verify();
-
-      // await _aeronaveRepository.Object.UpdateAsync(aeronaveTest);
-      //_unitOfWork.Verify(mock => mock.Commit(), Times.Once);
 
       Assert.IsType<Guid>(result.Result);
     }

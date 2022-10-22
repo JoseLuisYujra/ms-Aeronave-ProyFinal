@@ -9,7 +9,7 @@ using static Aeronaves.Domain.Model.Enum.Enums;
 
 namespace Aeronaves.Domain.Model.Aeronaves {
   public class AeronaveAsientos : Entity<Guid> {
-    //public Guid Id { get; private set; }
+
     public Guid AeronaveId { get; private set; }
     public string ClaseAsiento { get; private set; } //(Economica(20)/Ejecutiva(10)) -> enum
     public string Ubicacion { get; private set; }    //(Ventana,Central,Pasillo)  -> enum

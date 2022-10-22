@@ -36,8 +36,8 @@ namespace Aeronaves.Test.WebApi.Controllers {
 
     [Fact]
     public void AeronaveController_CreateTest() {
-      //var _mediator = new Mock<IMediator>();
-      var CodAeronaveTest = "abc123";  //_aeoronaveService.GenerarIdAeronaveAsync();
+
+      var CodAeronaveTest = "abc123";
       var MarcaTest = "Boeing";
       var ModeloTest = "Boeing 2022";
       var NroAsientosTest = 60;
@@ -72,7 +72,7 @@ namespace Aeronaves.Test.WebApi.Controllers {
 
       _mediator.Setup(x => x.Send(resultTest, It.IsAny<CancellationToken>()))
                .ReturnsAsync(() => resultTest.Id);
-      //.ReturnsAsync(Task.FromResult(Guid.NewGuid()));
+
       Assert.NotNull(result);
       Assert.IsType<Guid>(resultTest.Result);
     }

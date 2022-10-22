@@ -52,18 +52,8 @@ namespace Aeronaves.Test.Aplication.UseCases.Handler {
       _IAeronaveRepository.Setup(mock => mock.FindByIdAsync(objRequest.Id))
          .Returns(Task.FromResult(aeronaveTest));
       aeronaveTest.ActualizarEstadoMantenimientoAeronave();
-
-      /*
-      await _IAeronaveRepository.Object.UpdateAsync(aeronaveTest);
-
-      _IAeronaveRepository.Verify();
-      */
-
       _IAeronaveRepository.Setup(mock => mock.UpdateAsync(aeronaveTest));
       _IAeronaveRepository.Verify(mock => mock.UpdateAsync(aeronaveTest), Times.Never);
-
-
-      //Assert.IsType<Guid>(result);
       Assert.NotNull(result);
 
     }

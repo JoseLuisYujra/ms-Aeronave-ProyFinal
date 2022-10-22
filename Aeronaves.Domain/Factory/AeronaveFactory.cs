@@ -8,12 +8,6 @@ using Aeronaves.Domain.Model.Aeronaves;
 
 namespace Aeronaves.Domain.Factory {
   public class AeronaveFactory : IAeronaveFactory {
-    /*
-    public Aeronave Create(int idAeronave)
-    {
-        return new Aeronave(idAeronave);
-    }
-    */
 
 
     public Aeronave Create(string codAeronave, string marca, string modelo, int nroasientos, decimal capacidadcarga, decimal captanquecombustible, string aereopuertoEstacionamiento) {

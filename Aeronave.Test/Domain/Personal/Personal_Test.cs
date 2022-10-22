@@ -13,7 +13,6 @@ namespace Aeronaves.Test.Domain.Personal {
 
     [Fact]
     public void Personal_valid() {
-      //string var = "Jose Yujra";
       Aeronaves.Domain.Model.Personal.Personal persona = new Aeronaves.Domain.Model.Personal.Personal(nombreCompleto);
       Assert.NotNull(persona);
     }

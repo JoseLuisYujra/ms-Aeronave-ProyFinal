@@ -18,7 +18,7 @@ namespace Aeronaves.Domain.ValueObjects {
       }
       //Aeronave Comercial  Aeronave Comercial   Clase Ejecutiva = 30 Clase Economica = 100
       //Control a nivel general del ejemplo 30 + 100 =  130
-      else if (value > 130) {
+      else if (value > 150) {
         throw new BussinessRuleValidationException("La cantidad de pasajeros no puede sobrepasar el limite");
       }
 

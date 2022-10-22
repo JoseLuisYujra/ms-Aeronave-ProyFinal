@@ -75,11 +75,6 @@ namespace Aeronaves.Infraestructure.EF.Config.WriteConfig {
              .HasColumnType("string")
              .HasMaxLength(20);
 
-
-
-      // builder.HasMany(typeof(ControlAeronave), "_ControlAeronave");            
-      //builder.HasMany<ControlAeronave>().WithMany("_ControlAeronave");
-
       builder.HasMany(typeof(AeronaveAsientos), "AsientosAeronave");
 
       builder.Ignore("_domainEvents");
@@ -93,11 +88,7 @@ namespace Aeronaves.Infraestructure.EF.Config.WriteConfig {
       builder.ToTable("AeronaveAsientos");
       builder.HasKey(x => x.Id);
 
-      /*
-      builder.Property(x => x.AeronaveId)
-          .HasColumnName("AeronaveId")
-          .HasMaxLength(40);            
-      */
+
       builder.Property(x => x.ClaseAsiento)
           .HasColumnName("ClaseAsiento")
           .HasMaxLength(50);

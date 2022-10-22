@@ -61,8 +61,6 @@ namespace Aeronaves.Aplication.UseCases.Command.Aeronaves.CrearAeronave {
 
         //Publicando RabbitMQ            
         _eventBus.Publish(new AeronaveAgregadaEventoQueue(objaeronave.Id, request.Marca, request.Modelo, request.NroAsientos, objaeronave.EstadoAeronave, "Se Creo la Aeronave y se notifica al bus de eventos"));
-        //_eventBus.Publish(new AeronaveAgregadaEventoQueuePrueba(objaeronave.Id, request.Marca, request.Modelo, request.NroAsientos, objaeronave.EstadoAeronave, "Se Creo la Aeronave y se notifica al bus de eventos"));
-        //_eventBus.Publish(new VueloAsignadoAeronaveQueue(Guid.NewGuid(), Guid.NewGuid(), objaeronave.Id));
 
         return objaeronave.Id;
       } catch (Exception ex) {

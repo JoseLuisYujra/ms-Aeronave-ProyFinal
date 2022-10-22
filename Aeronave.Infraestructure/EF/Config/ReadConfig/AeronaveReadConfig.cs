@@ -15,9 +15,6 @@ namespace Aeronaves.Infraestructure.EF.Config.ReadConfig {
 
       builder.ToTable("Aeronave");
       builder.HasKey(x => x.Id);
-      //builder.Property(x => x.Id)
-      //    .HasColumnName("Id")                
-      //    .HasMaxLength(40);
 
       builder.Property(x => x.CodAeronave)
           .HasColumnName("CodAeronave")
@@ -62,15 +59,6 @@ namespace Aeronaves.Infraestructure.EF.Config.ReadConfig {
       builder.ToTable("AeronaveAsientos");
       builder.HasKey(x => x.Id);
 
-      //builder.Property(x => x.IdAsiento)
-      //   .HasColumnName("IdAsiento")
-      //   .HasMaxLength(40);
-
-      /*
-      builder.Property(x => x.AeronaveId)
-          .HasColumnName("AeronaveId")
-          .HasMaxLength(40);
-      */
       builder.Property(x => x.ClaseAsiento)
           .HasColumnName("ClaseAsiento")
           .HasMaxLength(50);

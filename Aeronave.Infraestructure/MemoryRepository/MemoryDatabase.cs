@@ -13,8 +13,6 @@ namespace Aeronaves.Infraestructure.MemoryRepository {
       get { return _aeronaves; }
     }
 
-
-
     public MemoryDatabase() {
       _aeronaves = new List<Aeronave>();
     }

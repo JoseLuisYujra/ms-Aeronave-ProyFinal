@@ -17,7 +17,7 @@ namespace Aeronaves.Test.Domain.Event {
 
       //Arrange
       var IdAeronaveTest = Guid.NewGuid();
-      var CodAeronaveTest = "abc123";  //_aeoronaveService.GenerarIdAeronaveAsync();
+      var CodAeronaveTest = "abc123";
       var MarcaTest = "Boeing";
       var ModeloTest = "Boeing 2022";
       var NroAsientosTest = 60;
@@ -36,10 +36,6 @@ namespace Aeronaves.Test.Domain.Event {
       Assert.Equal(CapacidadCargaTest, checkAeronaveAgregada.CapacidadCarga);
       Assert.Equal(CapTanqueCombustibleTest, checkAeronaveAgregada.CapTanqueCombustible);
       Assert.Equal(AereopuertoEstacionamientoTest, checkAeronaveAgregada.AereopuertoEstacionamiento);
-      /*
-      Assert.Empty(checkAeronaveAgregada.EstadoAeronave);
-      Assert.NotNull(checkAeronaveAgregada.DetalleAeronaveAsientos);
-      */
 
       Assert.NotNull(checkAeronaveAgregada);
     }

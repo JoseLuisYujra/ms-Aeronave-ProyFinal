@@ -9,8 +9,6 @@ using Aeronaves.Domain.Model.Aeronaves;
 using Aeronaves.Domain.Repositories;
 using System.Threading;
 
-
-
 namespace Aeronaves.Aplication.UseCases.Command.Aeronaves {
 
   public class ActualizarEstadoAeronaveHandler : INotificationHandler<AeronaveEstadoActualizado> {

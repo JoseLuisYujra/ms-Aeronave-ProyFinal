@@ -12,7 +12,6 @@ namespace Aeronaves.Test.Aplication.UseCases.ManejadorRabbit {
 
     [Fact]
     public void AeronaveEventoManejador_Valid() {
-      //System.Diagnostics.Debugger.Launch();
       var e = new VueloAsignadoAeronaveQueue(Guid.Empty, Guid.Empty, Guid.Empty);
 
       e.Id = Guid.Empty;
@@ -21,18 +20,9 @@ namespace Aeronaves.Test.Aplication.UseCases.ManejadorRabbit {
 
       var V = new AeronaveEventoManejador();
       V.Handle(e);
-      /*
-      try
-      {               
-          V.Handle(e);
-      }
-      catch (Exception ex)
-      { 
-      }
-      */
+
       Assert.NotNull(V);
       Assert.True(V != null);
-      //Assert.False(V != null);
     }
   }
 }

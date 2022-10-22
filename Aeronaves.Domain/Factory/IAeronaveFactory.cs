@@ -11,7 +11,6 @@ using Aeronaves.Domain.Model.Aeronaves;
 
 namespace Aeronaves.Domain.Factory {
   public interface IAeronaveFactory {
-    // Aeronave Create(Guid idAeronave);
     Aeronave Create(string codAeronave, string marca, string modelo, int nroasientos, decimal capacidadcarga, decimal captanquecombustible, string aereopuertoEstacionamiento);
 
   }

@@ -11,9 +11,6 @@ namespace Aeronaves.Domain.Repositories {
   public interface IAeronaveRepository : IRepository<Aeronave, Guid> {
     Task UpdateAsync(Aeronave obj);
 
-    //Task SaveASync(Aeronave obj);
-
-    //Task RemoveAsync(Aeronave obj);
     Task<List<Aeronave>> GetAll();
 
   }

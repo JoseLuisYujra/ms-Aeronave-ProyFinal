@@ -24,20 +24,7 @@ namespace Aeronaves.Domain.Event {
     public List<DetalleAeronaveAsientosAgregado> DetalleAeronaveAsientos { get; init; }
 
     public record DetalleAeronaveAsientosAgregado(string asientosClases, string asientosUbicacion, int nrosilla, string asientosStatus);
-    /*
-    public AeronaveAgregada(Guid idaeronave, string marca, string modelo, int nroAsientos, decimal capacidadCarga, decimal capTanqueCombustible,
-                            string aereopuertoEstacionamiento, List<DetalleAeronaveAsientosAgregado> detalleAeronaveAsientos) : base(DateTime.Now)
-    {
-        IdAeronave = idaeronave;            
-        Marca = marca;
-        Modelo = modelo;
-        NroAsientos = nroAsientos;
-        CapacidadCarga = capacidadCarga;
-        CapTanqueCombustible = capTanqueCombustible;
-        AereopuertoEstacionamiento = aereopuertoEstacionamiento;           
-        DetalleAeronaveAsientos = detalleAeronaveAsientos;
-    }
-    */
+
     public AeronaveAgregada(Guid idAeronave, string codAeronave, string marca, string modelo, int nroAsientos, decimal capacidadCarga, decimal capTanqueCombustible,
                            string aereopuertoEstacionamiento) : base(DateTime.Now) {
 

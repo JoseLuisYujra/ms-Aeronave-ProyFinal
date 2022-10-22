@@ -7,12 +7,6 @@ using System.Threading.Tasks;
 namespace Aeronaves.Aplication.Services {
 
   public class AeronaveService : IAeoronaveService {
-    /*
-    private static Random nroramdom = new Random();
-    int ranNum = nroramdom.Next(1, 9999);
-
-    public Task<int> GenerarIdAeronaveAsync() => Task.FromResult(ranNum);
-    */
 
     public Task<string> GenerarIdAeronaveAsync() {
       return Task.FromResult(GeneradorCodigo(10));

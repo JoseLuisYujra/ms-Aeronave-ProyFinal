@@ -12,7 +12,6 @@ using static Aeronaves.Domain.Model.Enum.Enums;
 
 namespace Aeronaves.Domain.Model.Aeronaves {
   public class Aeronave : AggregateRoot<Guid> {
-    //public Guid IdAeronave { get; private set; }
 
     public CodigoAeronaveValue CodAeronave;
     public string Marca { get; private set; }
@@ -68,22 +67,10 @@ namespace Aeronaves.Domain.Model.Aeronaves {
       AddDomainEvent(new AsientoAgregado(aeronaveId, asientosClases, asientosUbicacion, nrosilla, estadoAsiento));
     }
 
-    //public void RegistroAeronave(Guid idAeronave, string marca, string modelo, int nroasientos, decimal capacidadCarga, decimal captanquecombustible, string aereopuertoEstacionamiento)        
+
     public void RegistroAeronave() {
-      /*
-      var controlAeronave = AeronaveControl.FirstOrDefault(x => x.IdAeronave == idaeronave);
-      if (controlAeronave is null)
-      {
-          controlAeronave = new ControlAeronave(idaeronave, marca, modelo, capacidadCarga, capTanqueCombustible, aereopuertoEstacionamiento, estadoFuncionalAeronave, asientosAsignados);
-          AeronaveControl.Add(controlAeronave);
-      }
-      else
-      {
-          controlAeronave.ActualizarAeronave(capTanqueCombustible, aereopuertoEstacionamiento, estadoFuncionalAeronave);
-      }
-      */
+
       EstadoAeronave = "Operativo";
-      //AddDomainEvent(new AeronaveAgregada(IdAeronave, CodAeronave, Marca, Modelo, NroAsientos, CapacidadCarga, CapTanqueCombustible, AereopuertoEstacionamiento));
       AddDomainEvent(new AeronaveAgregada(Id, CodAeronave, Marca, Modelo, NroAsientos, CapacidadCarga, CapTanqueCombustible, AereopuertoEstacionamiento));
     }
 

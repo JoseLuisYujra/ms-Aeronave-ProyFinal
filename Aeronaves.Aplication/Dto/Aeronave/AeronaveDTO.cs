@@ -17,7 +17,6 @@ namespace Aeronaves.Aplication.Dto.Aeronave {
     public decimal CapTanqueCombustible { get; set; }
     public string AereopuertoEstacionamiento { get; set; }
     public string EstadoAeronave { get; set; }
-    //public ICollection<AeronaveAsientosDTO> AsientosAeronave { get; set; }
 
     public List<AeronaveAsientosDTO> AsientosAeronave;
 
