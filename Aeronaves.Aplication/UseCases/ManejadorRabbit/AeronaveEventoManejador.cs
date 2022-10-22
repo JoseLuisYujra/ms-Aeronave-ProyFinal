@@ -19,9 +19,8 @@ namespace Aeronaves.Aplication.UseCases.ManejadorRabbit {
     /// </summary>                     
     public Task Handle(VueloAsignadoAeronaveQueue @evento) {
 
-      //var url = "https://aeronave.azurewebsites.net/api/AsignarAeronave";          
-      var url = "https://localhost:44384/api/AsignarAeronave";
-      //var url = "https://localhost:5001/api/AsignarAeronave";
+      var url = "https://aeronaveapi.azurewebsites.net/api/AsignarAeronave";
+      //var url = "https://localhost:44384/api/AsignarAeronave";      
       var request = (HttpWebRequest)WebRequest.Create(url);
       request.Accept = "application/json";
       request.ContentType = "application/json";
