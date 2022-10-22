@@ -41,21 +41,10 @@ namespace Aeronaves.Test.Aplication.UseCases.Queries {
     [Fact]
     public void GetAeronaveByIdQueryHandler_Tests() {
       var IdTest = Guid.NewGuid();
-      var CodAeronaveTest = "abc123";  //_aeoronaveService.GenerarIdAeronaveAsync();
-      var MarcaTest = "Boeing";
-      var ModeloTest = "Boeing 2022";
-      var NroAsientosTest = 60;
       decimal CapacidadCargaTest = new(2000.0);
       decimal CapTanqueCombustibleTest = new(3500);
-      var AereopuertoEstacionamientoTest = "Aeropuerto Internacional de El Alto";
-      var EstadoAeronavTeste = "Operativo";
       var AsientosAeronaveTests = MockFactory.GetAeronaveAsientos();
-
       var AeronaveIdTest = IdTest;
-      var ClaseAsientoTest = "Economica";
-      var UbicacionTest = "Centro";
-      var NroSillaTest = 1;
-      var EstadoAsientoTest = "Libre";
 
       var objAeronave = new AeronaveDTO();
       var objAeronaveAsientos = new AeronaveAsientosDTO();
