@@ -1,8 +1,12 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+using System.Security.Cryptography;
+using System.ComponentModel;
 
 namespace Aeronaves.Aplication.Services {
 
@@ -12,12 +16,14 @@ namespace Aeronaves.Aplication.Services {
       return Task.FromResult(GeneradorCodigo(10));
     }
 
+    [ExcludeFromCodeCoverage]
     public static string GeneradorCodigo(int length) {
+
       Random random = new Random();
       const string characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
       return new string(Enumerable.Repeat(characters, length)
         .Select(s => s[random.Next(s.Length)]).ToArray());
-    }
 
+    }
   }
 }

@@ -2,34 +2,24 @@ root = true
 
 #todos los archivos que terminen en  .cs
 [*.cs]
-
 #Eliminar espacio en blanco
 trim_trailing_whitespace = true
-
 #utilizara el tabulador el caracter  \t
 indent_style = tab 
-
 #usara espacios separador con 4 espacio
 indent_size = 2
-
 end_of_line = lf
 insert_final_newline = true
-
 # formateo para que el parentesis inicie en la primera linea
 csharp_new_line_before_open_brace = none
-
 #formateo para que el parentesis inicie despues de la instruccion
 # csharp_new_line_before_open_brace = all
-
 #codificacion de caracteres universal
-charset = utf-8 
-
+charset = utf-8
 #eliminar espacio en blanco al final de linea
 trim_trailing_whitespace = true
-
 # IDE0055: Fijar formato
 dotnet_diagnostic.IDE0055.severity = none
-
 csharp_new_line_before_catch = false
 csharp_new_line_before_else = false
 csharp_new_line_before_finally = false
