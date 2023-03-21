@@ -8,7 +8,7 @@
         "version": "4.3.0.0",
         "fileVersion": "4.3.0-3.22365.10 (dd078d4e)",
         "semanticVersion": "4.3.0",
-        "language": "es-ES"
+        "language": "es-MX"
       },
       "results": [
         {
@@ -140,27 +140,6 @@
         {
           "ruleId": "S101",
           "level": "warning",
-          "message": "Rename class 'AeronaveDTO' to match pascal case naming rules, consider using 'AeronaveDto'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/Joseluis/Documents/GitHub/ms-Aeronave-ProyFinal_JY/ms-Aeronave-ProyFinal/Aeronaves.Aplication/Dto/Aeronave/AeronaveDTO.cs",
-                "region": {
-                  "startLine": 10,
-                  "startColumn": 16,
-                  "endLine": 10,
-                  "endColumn": 27
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S101",
-          "level": "warning",
           "message": "Rename class 'AeronaveAsientosDTO' to match pascal case naming rules, consider using 'AeronaveAsientosDto'.",
           "locations": [
             {
@@ -180,18 +159,18 @@
           }
         },
         {
-          "ruleId": "S1104",
+          "ruleId": "S101",
           "level": "warning",
-          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "message": "Rename class 'AeronaveDTO' to match pascal case naming rules, consider using 'AeronaveDto'.",
           "locations": [
             {
               "resultFile": {
                 "uri": "file:///C:/Users/Joseluis/Documents/GitHub/ms-Aeronave-ProyFinal_JY/ms-Aeronave-ProyFinal/Aeronaves.Aplication/Dto/Aeronave/AeronaveDTO.cs",
                 "region": {
-                  "startLine": 21,
-                  "startColumn": 38,
-                  "endLine": 21,
-                  "endColumn": 54
+                  "startLine": 10,
+                  "startColumn": 16,
+                  "endLine": 10,
+                  "endColumn": 27
                 }
               }
             }
@@ -222,6 +201,27 @@
           }
         },
         {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Joseluis/Documents/GitHub/ms-Aeronave-ProyFinal_JY/ms-Aeronave-ProyFinal/Aeronaves.Aplication/Dto/Aeronave/AeronaveDTO.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 38,
+                  "endLine": 21,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
           "ruleId": "S2486",
           "level": "warning",
           "message": "Handle the exception or explain in a comment why it can be ignored.",
@@ -232,6 +232,27 @@
                 "region": {
                   "startLine": 40,
                   "startColumn": 9,
+                  "endLine": 40,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S108",
+          "level": "warning",
+          "message": "Either remove or fill this block of code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Joseluis/Documents/GitHub/ms-Aeronave-ProyFinal_JY/ms-Aeronave-ProyFinal/Aeronaves.Aplication/UseCases/ManejadorRabbit/AeronaveEventoManejador.cs",
+                "region": {
+                  "startLine": 40,
+                  "startColumn": 30,
                   "endLine": 40,
                   "endColumn": 33
                 }
@@ -255,27 +276,6 @@
                   "startColumn": 23,
                   "endLine": 20,
                   "endColumn": 35
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S108",
-          "level": "warning",
-          "message": "Either remove or fill this block of code.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/Joseluis/Documents/GitHub/ms-Aeronave-ProyFinal_JY/ms-Aeronave-ProyFinal/Aeronaves.Aplication/UseCases/ManejadorRabbit/AeronaveEventoManejador.cs",
-                "region": {
-                  "startLine": 40,
-                  "startColumn": 30,
-                  "endLine": 40,
-                  "endColumn": 33
                 }
               }
             }

@@ -8,7 +8,7 @@
         "version": "4.3.0.0",
         "fileVersion": "4.3.0-3.22365.10 (dd078d4e)",
         "semanticVersion": "4.3.0",
-        "language": "es-ES"
+        "language": "es-MX"
       },
       "results": [
         {
@@ -20,9 +20,9 @@
               "resultFile": {
                 "uri": "file:///C:/Users/Joseluis/Documents/GitHub/ms-Aeronave-ProyFinal_JY/ms-Aeronave-ProyFinal/Aeronaves.Domain/Model/Aeronaves/Aeronave.cs",
                 "region": {
-                  "startLine": 26,
+                  "startLine": 27,
                   "startColumn": 5,
-                  "endLine": 26,
+                  "endLine": 27,
                   "endColumn": 54
                 }
               }
@@ -62,6 +62,27 @@
               "resultFile": {
                 "uri": "file:///C:/Users/Joseluis/Documents/GitHub/ms-Aeronave-ProyFinal_JY/ms-Aeronave-ProyFinal/Aeronaves.Domain/Model/Aeronaves/Aeronave.cs",
                 "region": {
+                  "startLine": 17,
+                  "startColumn": 19,
+                  "endLine": 17,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Joseluis/Documents/GitHub/ms-Aeronave-ProyFinal_JY/ms-Aeronave-ProyFinal/Aeronaves.Domain/Model/Aeronaves/Aeronave.cs",
+                "region": {
                   "startLine": 16,
                   "startColumn": 19,
                   "endLine": 16,
@@ -83,9 +104,9 @@
               "resultFile": {
                 "uri": "file:///C:/Users/Joseluis/Documents/GitHub/ms-Aeronave-ProyFinal_JY/ms-Aeronave-ProyFinal/Aeronaves.Domain/Model/Aeronaves/Aeronave.cs",
                 "region": {
-                  "startLine": 17,
+                  "startLine": 18,
                   "startColumn": 32,
-                  "endLine": 17,
+                  "endLine": 18,
                   "endColumn": 43
                 }
               }
@@ -104,9 +125,9 @@
               "resultFile": {
                 "uri": "file:///C:/Users/Joseluis/Documents/GitHub/ms-Aeronave-ProyFinal_JY/ms-Aeronave-ProyFinal/Aeronaves.Domain/Model/Aeronaves/Aeronave.cs",
                 "region": {
-                  "startLine": 33,
+                  "startLine": 34,
                   "startColumn": 57,
-                  "endLine": 33,
+                  "endLine": 34,
                   "endColumn": 80
                 }
               }

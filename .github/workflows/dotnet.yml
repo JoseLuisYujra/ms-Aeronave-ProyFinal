@@ -1,8 +1,9 @@
 name: Restore,Build,Test y Analyze
 
 on:
-  push:
-    branches: [ "main" ]
+  push:    
+    branches:
+      - main
   pull_request:
     branches: [ "main" ]
       
@@ -52,8 +53,8 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         shell: powershell
         run: |
-          .\.sonar\scanner\dotnet-sonarscanner begin /k:"ms-Aeronave-ProyFinal" /o:"joseluisyujra" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.cs.vscoveragexml.reportsPaths=coverage.xml
+          .\.sonar\scanner\dotnet-sonarscanner begin /k:"JoseLuisYujra_ms-Aeronave-ProyFinal" /o:"joseluisyujra" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.cs.vscoveragexml.reportsPaths=coverage.xml
           dotnet build --no-restore
           dotnet test --no-build --verbosity normal
           dotnet-coverage collect 'dotnet test Aeronaves.Test' -f xml  -o 'coverage.xml'          
-          .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
+          .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"         
