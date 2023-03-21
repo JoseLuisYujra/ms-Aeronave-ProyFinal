@@ -180,6 +180,27 @@
           }
         },
         {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Joseluis/Documents/GitHub/ms-Aeronave-ProyFinal_JY/ms-Aeronave-ProyFinal/Aeronaves.Aplication/Dto/Aeronave/AeronaveDTO.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 38,
+                  "endLine": 21,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
           "ruleId": "S1144",
           "level": "warning",
           "message": "Remove the unused private method 'AddRabbitMq'.",
@@ -201,18 +222,39 @@
           }
         },
         {
-          "ruleId": "S1104",
+          "ruleId": "S107",
           "level": "warning",
-          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "message": "Constructor has 8 parameters, which is greater than the 7 authorized.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/Joseluis/Documents/GitHub/ms-Aeronave-ProyFinal_JY/ms-Aeronave-ProyFinal/Aeronaves.Aplication/Dto/Aeronave/AeronaveDTO.cs",
+                "uri": "file:///C:/Users/Joseluis/Documents/GitHub/ms-Aeronave-ProyFinal_JY/ms-Aeronave-ProyFinal/Aeronaves.Aplication/UseCases/Command/Aeronaves/CrearAeronave/CrearAeronaveCommand.cs",
                 "region": {
                   "startLine": 21,
-                  "startColumn": 38,
+                  "startColumn": 32,
                   "endLine": 21,
-                  "endColumn": 54
+                  "endColumn": 238
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2245",
+          "level": "warning",
+          "message": "Make sure that using this pseudorandom number generator is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Joseluis/Documents/GitHub/ms-Aeronave-ProyFinal_JY/ms-Aeronave-ProyFinal/Aeronaves.Aplication/Services/AeronaveService.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 23,
+                  "endLine": 20,
+                  "endColumn": 35
                 }
               }
             }
@@ -264,27 +306,6 @@
           }
         },
         {
-          "ruleId": "S2245",
-          "level": "warning",
-          "message": "Make sure that using this pseudorandom number generator is safe here.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/Joseluis/Documents/GitHub/ms-Aeronave-ProyFinal_JY/ms-Aeronave-ProyFinal/Aeronaves.Aplication/Services/AeronaveService.cs",
-                "region": {
-                  "startLine": 20,
-                  "startColumn": 23,
-                  "endLine": 20,
-                  "endColumn": 35
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "S1075",
           "level": "warning",
           "message": "Refactor your code not to use hardcoded absolute paths or URIs.",
@@ -318,27 +339,6 @@
                   "startColumn": 13,
                   "endLine": 39,
                   "endColumn": 21
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S107",
-          "level": "warning",
-          "message": "Constructor has 8 parameters, which is greater than the 7 authorized.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/Joseluis/Documents/GitHub/ms-Aeronave-ProyFinal_JY/ms-Aeronave-ProyFinal/Aeronaves.Aplication/UseCases/Command/Aeronaves/CrearAeronave/CrearAeronaveCommand.cs",
-                "region": {
-                  "startLine": 21,
-                  "startColumn": 32,
-                  "endLine": 21,
-                  "endColumn": 238
                 }
               }
             }

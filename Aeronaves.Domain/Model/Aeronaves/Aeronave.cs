@@ -13,8 +13,6 @@ using static Aeronaves.Domain.Model.Enum.Enums;
 namespace Aeronaves.Domain.Model.Aeronaves {
   public class Aeronave : AggregateRoot<Guid> {
 
-    public string prueba;
-    public string pruebaD;
     public CodigoAeronaveValue CodAeronave;
     public string Marca { get; private set; }
     public string Modelo { get; private set; }

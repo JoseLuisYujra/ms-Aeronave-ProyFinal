@@ -562,7 +562,7 @@ aeronaveId 
 ;
 ® ¯
 } 
-} ”4
+} ý2
 ~C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\Aeronaves.Domain\Model\Aeronaves\Aeronave.cs
 	namespace 	
 	Aeronaves
@@ -584,355 +584,345 @@ aeronaveId 
 >, -
 {. /
 public 
-
-string 
-prueba 
-; 
+
+CodigoAeronaveValue 
+CodAeronave *
+;* +
 public 
 
-string 
-pruebaD 
-; 
+string 
+Marca 
+{ 
+get 
+; 
+private &
+set' *
+;* +
+}, -
 public 
-
-CodigoAeronaveValue 
-CodAeronave *
-;* +
+
+string 
+Modelo 
+{ 
+get 
+; 
+private  '
+set( +
+;+ ,
+}- .
 public 
-
-string 
-Marca 
-{ 
-get 
-; 
-private &
-set' *
-;* +
-}, -
-public 
-
-string 
-Modelo 
-{ 
-get 
-; 
-private  '
-set( +
-;+ ,
-}- .
-public 
 
-NroAsientosValue 
-NroAsientos '
-{( )
-get* -
-;- .
-private/ 6
-set7 :
-;: ;
-}< =
+NroAsientosValue 
+NroAsientos '
+{( )
+get* -
+;- .
+private/ 6
+set7 :
+;: ;
+}< =
+public 
+ 
+RegistroDecimalValue 
+CapacidadCarga  .
+{/ 0
+get1 4
+;4 5
+private6 =
+set> A
+;A B
+}C D
+public 
+ 
+RegistroDecimalValue  
+CapTanqueCombustible  4
+{5 6
+get7 :
+;: ;
+private< C
+setD G
+;G H
+}I J
 public 
- 
-RegistroDecimalValue 
-CapacidadCarga  .
-{/ 0
-get1 4
-;4 5
-private6 =
-set> A
-;A B
-}C D
+
+string &
+AereopuertoEstacionamiento ,
+{- .
+get/ 2
+;2 3
+private4 ;
+set< ?
+;? @
+}A B
 public 
- 
-RegistroDecimalValue  
-CapTanqueCombustible  4
-{5 6
-get7 :
-;: ;
-private< C
-setD G
-;G H
-}I J
-public 
 
-string &
-AereopuertoEstacionamiento ,
-{- .
-get/ 2
-;2 3
-private4 ;
-set< ?
-;? @
-}A B
-public 
-
-string 
-EstadoAeronave  
-{! "
-get# &
-;& '
-private( /
-set0 3
-;3 4
-}5 6
-private 
-readonly 
-ICollection  
-<  !
-AeronaveAsientos! 1
->1 2
-AsientosAeronave3 C
-;C D
-public   
+string 
+EstadoAeronave  
+{! "
+get# &
+;& '
+private( /
+set0 3
+;3 4
+}5 6
+private 
+readonly 
+ICollection  
+<  !
+AeronaveAsientos! 1
+>1 2
+AsientosAeronave3 C
+;C D
+public 
 
-IReadOnlyCollection   
-<   
-AeronaveAsientos   /
->  / 0
-DetalleAsientos  1 @
-{  A B
-get!! 	
-{!!
+IReadOnlyCollection 
+< 
+AeronaveAsientos /
+>/ 0
+DetalleAsientos1 @
+{A B
+get 	
+{
  
-return"" 
-new"" 
-ReadOnlyCollection"" %
-<""% &
-AeronaveAsientos""& 6
->""6 7
-(""7 8
-AsientosAeronave""8 H
-.""H I
-ToList""I O
-(""O P
-)""P Q
-)""Q R
-;""R S
-}## 
-}$$ 
-public'' 
+return   
+new   
+ReadOnlyCollection   %
+<  % &
+AeronaveAsientos  & 6
+>  6 7
+(  7 8
+AsientosAeronave  8 H
+.  H I
+ToList  I O
+(  O P
+)  P Q
+)  Q R
+;  R S
+}!! 
+}"" 
+public%% 
 
-Aeronave'' 
-('' 
-string'' 
-codAeronave'' &
-,''& '
-string''( .
-marca''/ 4
-,''4 5
-string''6 <
-modelo''= C
-,''C D
-int''E H
-nroasientos''I T
-,''T U
-decimal''V ]
-capacidadcarga''^ l
-,''l m
-decimal''n u!
-captanquecombustible	''v Š
+Aeronave%% 
+(%% 
+string%% 
+codAeronave%% &
+,%%& '
+string%%( .
+marca%%/ 4
+,%%4 5
+string%%6 <
+modelo%%= C
+,%%C D
+int%%E H
+nroasientos%%I T
+,%%T U
+decimal%%V ]
+capacidadcarga%%^ l
+,%%l m
+decimal%%n u!
+captanquecombustible	%%v Š
 ,
-''Š ‹
+%%Š ‹
 string
-''Œ ’(
+%%Œ ’(
 aereopuertoEstacionamiento
-''“ ­
+%%“ ­
 )
-''­ ®
+%%­ ®
 {
-''¯ °
-Id(( 
-=((	 
+%%¯ °
+Id&& 
+=&&	 
 
-Guid(( 
-.(( 
-NewGuid(( 
-((( 
-)(( 
-;(( 
-CodAeronave)) 
-=)) 
-codAeronave)) 
-;))  
-Marca** 
-=** 
-marca** 
-;** 
-Modelo++ 
-=++ 
-modelo++ 
-;++ 
-NroAsientos,, 
-=,, 
-nroasientos,, 
-;,,  
-CapacidadCarga-- 
-=-- 
-capacidadcarga-- %
-;--% & 
-CapTanqueCombustible.. 
-=..  
-captanquecombustible.. 1
-;..1 2&
-AereopuertoEstacionamiento//  
-=//! "&
-aereopuertoEstacionamiento//# =
-;//= >
-EstadoAeronave00 
-=00 
-$str00 "
-;00" #
-AsientosAeronave11 
-=11 
-new11 
-List11 !
-<11! "
-AeronaveAsientos11" 2
->112 3
-(113 4
-)114 5
-;115 6
-}22 
-public55 
+Guid&& 
+.&& 
+NewGuid&& 
+(&& 
+)&& 
+;&& 
+CodAeronave'' 
+='' 
+codAeronave'' 
+;''  
+Marca(( 
+=(( 
+marca(( 
+;(( 
+Modelo)) 
+=)) 
+modelo)) 
+;)) 
+NroAsientos** 
+=** 
+nroasientos** 
+;**  
+CapacidadCarga++ 
+=++ 
+capacidadcarga++ %
+;++% & 
+CapTanqueCombustible,, 
+=,,  
+captanquecombustible,, 1
+;,,1 2&
+AereopuertoEstacionamiento--  
+=--! "&
+aereopuertoEstacionamiento--# =
+;--= >
+EstadoAeronave.. 
+=.. 
+$str.. "
+;.." #
+AsientosAeronave// 
+=// 
+new// 
+List// !
+<//! "
+AeronaveAsientos//" 2
+>//2 3
+(//3 4
+)//4 5
+;//5 6
+}00 
+public33 
 
-Aeronave55 
-(55 
-)55 
-{55 
-}55 
-public88 
+Aeronave33 
+(33 
+)33 
+{33 
+}33 
+public66 
 
-void88 $
-ActualizarEstadoAeronave88 (
-(88( )
-)88) *
-{88+ ,
-EstadoAeronave99 
-=99 
-$str99 !
-;99! "
-}:: 
-public<< 
+void66 $
+ActualizarEstadoAeronave66 (
+(66( )
+)66) *
+{66+ ,
+EstadoAeronave77 
+=77 
+$str77 !
+;77! "
+}88 
+public:: 
 
-void<< 1
-%ActualizarEstadoMantenimientoAeronave<< 5
-(<<5 6
-)<<6 7
-{<<8 9
-EstadoAeronave== 
-=== 
-$str== &
-;==& '
-}>> 
-publicAA 
+void:: 1
+%ActualizarEstadoMantenimientoAeronave:: 5
+(::5 6
+)::6 7
+{::8 9
+EstadoAeronave;; 
+=;; 
+$str;; &
+;;;& '
+}<< 
+public?? 
 
-voidAA 
-AgregarAsientoAA 
-(AA 
-GuidAA #
+void?? 
+AgregarAsiento?? 
+(?? 
+Guid?? #
 
-aeronaveIdAA$ .
-,AA. /
-stringAA0 6
-asientosClasesAA7 E
-,AAE F
-stringAAG M
-asientosUbicacionAAN _
-,AA_ `
-intAAa d
-nrosillaAAe m
-,AAm n
-stringAAo u
-estadoAsiento	AAv ƒ
+aeronaveId??$ .
+,??. /
+string??0 6
+asientosClases??7 E
+,??E F
+string??G M
+asientosUbicacion??N _
+,??_ `
+int??a d
+nrosilla??e m
+,??m n
+string??o u
+estadoAsiento	??v ƒ
 )
-AAƒ „
+??ƒ „
 {
-AA… †
-varBB 	
-detalleAsientoBB
+??… †
+var@@ 	
+detalleAsiento@@
  
-=BB 
-newBB 
-AeronaveAsientosBB /
-(BB/ 0
+=@@ 
+new@@ 
+AeronaveAsientos@@ /
+(@@/ 0
 
-aeronaveIdBB0 :
-,BB: ;
-asientosClasesBB< J
-,BBJ K
-asientosUbicacionBBL ]
-,BB] ^
-nrosillaBB_ g
-,BBg h
-estadoAsientoBBi v
-)BBv w
-;BBw x
-AsientosAeronaveCC 
-.CC 
-AddCC 
-(CC 
-detalleAsientoCC )
-)CC) *
-;CC* +
-AddDomainEventEE 
-(EE 
-newEE 
-AsientoAgregadoEE (
-(EE( )
+aeronaveId@@0 :
+,@@: ;
+asientosClases@@< J
+,@@J K
+asientosUbicacion@@L ]
+,@@] ^
+nrosilla@@_ g
+,@@g h
+estadoAsiento@@i v
+)@@v w
+;@@w x
+AsientosAeronaveAA 
+.AA 
+AddAA 
+(AA 
+detalleAsientoAA )
+)AA) *
+;AA* +
+AddDomainEventCC 
+(CC 
+newCC 
+AsientoAgregadoCC (
+(CC( )
 
-aeronaveIdEE) 3
-,EE3 4
-asientosClasesEE5 C
-,EEC D
-asientosUbicacionEEE V
-,EEV W
-nrosillaEEX `
-,EE` a
-estadoAsientoEEb o
-)EEo p
-)EEp q
-;EEq r
-}FF 
-publicII 
+aeronaveIdCC) 3
+,CC3 4
+asientosClasesCC5 C
+,CCC D
+asientosUbicacionCCE V
+,CCV W
+nrosillaCCX `
+,CC` a
+estadoAsientoCCb o
+)CCo p
+)CCp q
+;CCq r
+}DD 
+publicGG 
 
-voidII 
-RegistroAeronaveII  
-(II  !
-)II! "
-{II# $
-EstadoAeronaveKK 
-=KK 
-$strKK "
-;KK" #
-AddDomainEventLL 
-(LL 
-newLL 
-AeronaveAgregadaLL )
-(LL) *
-IdLL* ,
-,LL, -
-CodAeronaveLL. 9
-,LL9 :
-MarcaLL; @
-,LL@ A
-ModeloLLB H
-,LLH I
-NroAsientosLLJ U
-,LLU V
-CapacidadCargaLLW e
-,LLe f 
-CapTanqueCombustibleLLg {
-,LL{ |'
-AereopuertoEstacionamiento	LL} —
+voidGG 
+RegistroAeronaveGG  
+(GG  !
+)GG! "
+{GG# $
+EstadoAeronaveII 
+=II 
+$strII "
+;II" #
+AddDomainEventJJ 
+(JJ 
+newJJ 
+AeronaveAgregadaJJ )
+(JJ) *
+IdJJ* ,
+,JJ, -
+CodAeronaveJJ. 9
+,JJ9 :
+MarcaJJ; @
+,JJ@ A
+ModeloJJB H
+,JJH I
+NroAsientosJJJ U
+,JJU V
+CapacidadCargaJJW e
+,JJe f 
+CapTanqueCombustibleJJg {
+,JJ{ |'
+AereopuertoEstacionamiento	JJ} —
 )
-LL— ˜
+JJ— ˜
 )
-LL˜ ™
+JJ˜ ™
 ;
-LL™ š
-}MM 
-}OO 
-}PP ý
+JJ™ š
+}KK 
+}MM 
+}NN ý
 †C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\Aeronaves.Domain\Model\Aeronaves\AeronaveAsientos.cs
 	namespace
 

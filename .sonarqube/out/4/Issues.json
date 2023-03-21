@@ -39,69 +39,6 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/Joseluis/Documents/GitHub/ms-Aeronave-ProyFinal_JY/ms-Aeronave-ProyFinal/Aeronave.Test/Domain/Aeronave/Values/AeronaveEstados_Tests.cs",
-                "region": {
-                  "startLine": 42,
-                  "startColumn": 22,
-                  "endLine": 42,
-                  "endColumn": 26
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8600",
-          "level": "warning",
-          "message": "Se va a convertir un literal nulo o un posible valor nulo en un tipo que no acepta valores NULL",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/Joseluis/Documents/GitHub/ms-Aeronave-ProyFinal_JY/ms-Aeronave-ProyFinal/Aeronave.Test/Domain/Aeronave/Values/AeronaveEstadoDisponibilidad_Tests.cs",
-                "region": {
-                  "startLine": 40,
-                  "startColumn": 22,
-                  "endLine": 40,
-                  "endColumn": 26
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8600",
-          "level": "warning",
-          "message": "Se va a convertir un literal nulo o un posible valor nulo en un tipo que no acepta valores NULL",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/Joseluis/Documents/GitHub/ms-Aeronave-ProyFinal_JY/ms-Aeronave-ProyFinal/Aeronave.Test/Domain/Aeronave/Values/AeronaveEstadoAsignacion_Tests.cs",
-                "region": {
-                  "startLine": 39,
-                  "startColumn": 24,
-                  "endLine": 39,
-                  "endColumn": 28
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8600",
-          "level": "warning",
-          "message": "Se va a convertir un literal nulo o un posible valor nulo en un tipo que no acepta valores NULL",
-          "locations": [
-            {
-              "resultFile": {
                 "uri": "file:///C:/Users/Joseluis/Documents/GitHub/ms-Aeronave-ProyFinal_JY/ms-Aeronave-ProyFinal/Aeronave.Test/Aplication/UseCases/Queries/GetAeronaveByIdQuery_Tests.cs",
                 "region": {
                   "startLine": 29,
@@ -219,6 +156,69 @@
           ],
           "properties": {
             "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS8600",
+          "level": "warning",
+          "message": "Se va a convertir un literal nulo o un posible valor nulo en un tipo que no acepta valores NULL",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Joseluis/Documents/GitHub/ms-Aeronave-ProyFinal_JY/ms-Aeronave-ProyFinal/Aeronave.Test/Domain/Aeronave/Values/AeronaveEstadoAsignacion_Tests.cs",
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 24,
+                  "endLine": 39,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8600",
+          "level": "warning",
+          "message": "Se va a convertir un literal nulo o un posible valor nulo en un tipo que no acepta valores NULL",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Joseluis/Documents/GitHub/ms-Aeronave-ProyFinal_JY/ms-Aeronave-ProyFinal/Aeronave.Test/Domain/Aeronave/Values/AeronaveEstadoDisponibilidad_Tests.cs",
+                "region": {
+                  "startLine": 40,
+                  "startColumn": 22,
+                  "endLine": 40,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8600",
+          "level": "warning",
+          "message": "Se va a convertir un literal nulo o un posible valor nulo en un tipo que no acepta valores NULL",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Joseluis/Documents/GitHub/ms-Aeronave-ProyFinal_JY/ms-Aeronave-ProyFinal/Aeronave.Test/Domain/Aeronave/Values/AeronaveEstados_Tests.cs",
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 22,
+                  "endLine": 42,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
           }
         },
         {

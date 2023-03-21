@@ -8,9 +8,9 @@
 }C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\Aeronaves.Domain\Factory\AeronaveFactory.cs 8r	
 ‚“
 ~C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\Aeronaves.Domain\Factory\IAeronaveFactory.csr	
-ß
-~C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\Aeronaves.Domain\Model\Aeronaves\Aeronave.cs 8j7r;	
- !"#$'()*+,-./012589:<=>ABCEFIKLMOP‚"()*+,-./019=CEKLÂ
+Ý
+~C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\Aeronaves.Domain\Model\Aeronaves\Aeronave.cs 8j5r9	
+ !"%&'()*+,-./03678:;<?@ACDGIJKMN‚ &'()*+,-./7;ACIJÂ
 †C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\Aeronaves.Domain\Model\Aeronaves\AeronaveAsientos.cs
  8jr!
  !"#$%&‚Ð
