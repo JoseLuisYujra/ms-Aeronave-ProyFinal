@@ -1,0 +1,17 @@
+﻿C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\Aeronaves.Aplication\Dto\Aeronave\AeronaveAsientosDTO.cs
+C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\Aeronaves.Aplication\Dto\Aeronave\AeronaveDTO.cs
+C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\Aeronaves.Aplication\Extensions.cs
+C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\Aeronaves.Aplication\ExtensionsApp.cs
+C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\Aeronaves.Aplication\Services\AeronaveService.cs
+C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\Aeronaves.Aplication\Services\IAeoronaveService.cs
+C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\Aeronaves.Aplication\UseCases\Command\Aeronaves\ActualizarEstadoAeronaveHandler.cs
+C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\Aeronaves.Aplication\UseCases\Command\Aeronaves\AsignarAeronave\AsignarAeronaveCommand.cs
+C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\Aeronaves.Aplication\UseCases\Command\Aeronaves\AsignarAeronave\AsignarAeronaveHandler.cs
+C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\Aeronaves.Aplication\UseCases\Command\Aeronaves\CrearAeronave\CrearAeronaveCommand.cs
+C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\Aeronaves.Aplication\UseCases\Command\Aeronaves\CrearAeronave\CrearAeronaveHandler.cs
+C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\Aeronaves.Aplication\UseCases\ManejadorRabbit\AeronaveEventoManejador.cs
+C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\Aeronaves.Aplication\UseCases\Queries\Aeronaves\GetAeronaveById\GetAeronaveByIdHandler.cs
+C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\Aeronaves.Aplication\UseCases\Queries\Aeronaves\GetAeronaveById\GetAeronaveByIdQuery.cs
+C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\Aeronaves.Aplication\UseCases\Queries\Aeronaves\ListAll\ListAllAeronaveQuery.cs
+C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\Aeronaves.Aplication\UseCases\Queries\Aeronaves\ListAll\ListAllAeronaveQueryHandler.cs
+C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\Aeronaves.Aplication\UseCases\Queries\Aeronaves\SearchAeronave\SearchAeronaveQuery.cs

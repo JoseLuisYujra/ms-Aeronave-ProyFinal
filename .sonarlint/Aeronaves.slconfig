@@ -1,0 +1,12 @@
+{
+  "ServerUri": "http://localhost:9000/",
+  "Organization": null,
+  "ProjectKey": "Test-Linter-JYujra",
+  "ProjectName": "Test-Linter-JYujra",
+  "Profiles": {
+    "CSharp": {
+      "ProfileKey": "AYbxkdrtQJ98kRkS55Cr",
+      "ProfileTimestamp": "2023-03-17T21:55:13Z"
+    }
+  }
+}

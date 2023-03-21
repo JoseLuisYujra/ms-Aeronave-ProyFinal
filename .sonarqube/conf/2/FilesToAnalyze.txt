@@ -1,0 +1,15 @@
+﻿C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\Aeronave.Infraestructure\EF\Config\ReadConfig\AeronaveReadConfig.cs
+C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\Aeronave.Infraestructure\EF\Config\WriteConfig\AeronaveWriteConfig.cs
+C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\Aeronave.Infraestructure\EF\Context\ReadDbContext.cs
+C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\Aeronave.Infraestructure\EF\Context\WriteDbContext.cs
+C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\Aeronave.Infraestructure\EF\Migrations\20221003000726_InitialStructure.cs
+C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\Aeronave.Infraestructure\EF\Migrations\20221003000726_InitialStructure.Designer.cs
+C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\Aeronave.Infraestructure\EF\Migrations\ReadDbContextModelSnapshot.cs
+C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\Aeronave.Infraestructure\EF\ReadModel\AeronaveAsientosReadModel.cs
+C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\Aeronave.Infraestructure\EF\ReadModel\AeronaveReadModel.cs
+C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\Aeronave.Infraestructure\EF\Repository\AeronaveRepository.cs
+C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\Aeronave.Infraestructure\EF\UnitOfWork.cs
+C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\Aeronave.Infraestructure\EF\UseCases\Queries\Aeronave\SearchAeronaveHandler.cs
+C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\Aeronave.Infraestructure\Extensions.cs
+C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\Aeronave.Infraestructure\MemoryRepository\MemoryAeronaveRepository.cs
+C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\Aeronave.Infraestructure\MemoryRepository\MemoryDatabase.cs

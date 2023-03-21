@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador de Microsoft (R) Visual C#",
+        "version": "4.3.0.0",
+        "fileVersion": "4.3.0-3.22365.10 (dd078d4e)",
+        "semanticVersion": "4.3.0",
+        "language": "es-ES"
+      },
+      "results": [
+        {
+          "ruleId": "CA2016",
+          "level": "note",
+          "message": "Forward the 'cancellationToken' parameter to the 'FindAsync' method or pass in 'CancellationToken.None' explicitly to indicate intentionally not propagating the token",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Joseluis/Documents/GitHub/ms-Aeronave-ProyFinal_JY/ms-Aeronave-ProyFinal/Aeronave.Infraestructure/EF/UseCases/Queries/Aeronave/SearchAeronaveHandler.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 32,
+                  "endLine": 28,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "ArgumentName": "cancellationToken",
+              "ParameterName": "cancellationToken",
+              "ShouldFix": "1"
+            }
+          }
+        }
+      ],
+      "rules": {
+        "CA2016": {
+          "id": "CA2016",
+          "shortDescription": "Forward the 'CancellationToken' parameter to methods",
+          "fullDescription": "Forward the 'CancellationToken' parameter to methods to ensure the operation cancellation notifications gets properly propagated, or pass in 'CancellationToken.None' explicitly to indicate intentionally not propagating the token.",
+          "defaultLevel": "note",
+          "helpUri": "https://docs.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2016",
+          "properties": {
+            "category": "Reliability",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

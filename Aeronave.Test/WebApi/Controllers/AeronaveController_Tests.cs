@@ -53,15 +53,15 @@ namespace Aeronaves.Test.WebApi.Controllers {
       var _aeoronaveService = new Mock<IAeoronaveService>();
       var _aeronaveFactory = new Mock<IAeronaveFactory>();
       var _unitOfWork = new Mock<IUnitOfWork>();
-      var _eventBus = new Mock<IRabbitEventBus>();
+      //var _eventBus = new Mock<IRabbitEventBus>();
 
       var objHandler = new CrearAeronaveHandler(
          _aeronaveRepository.Object,
          _logger.Object,
          _aeoronaveService.Object,
          _aeronaveFactory.Object,
-         _unitOfWork.Object,
-         _eventBus.Object
+         _unitOfWork.Object
+      //, _eventBus.Object
       );
       var tcs = new CancellationTokenSource(1000);
       var resultTest = objHandler.Handle(command, tcs.Token);

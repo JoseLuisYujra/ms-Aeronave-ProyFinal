@@ -1,0 +1,12 @@
+﻿C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\AeroNaves.webApi\Controllers\AeronaveController.cs
+C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\AeroNaves.webApi\Controllers\AsignarAeronaveController.cs
+C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\AeroNaves.webApi\Program.cs
+C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\AeroNaves.webApi\Startup.cs
+C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\AeroNaves.webApi\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\AeroNaves.webApi\obj\Debug\net6.0\AeroNaves.webApi.AssemblyInfo.cs
+C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\AeroNaves.webApi\obj\Debug\net6.0\AeroNaves.webApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\AeroNaves.webApi\appsettings.Development.json
+C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\AeroNaves.webApi\appsettings.json
+C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\AeroNaves.webApi\Dockerfile
+C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\AeroNaves.webApi\Properties\launchSettings.json
+C:\Users\Joseluis\Documents\GitHub\ms-Aeronave-ProyFinal_JY\ms-Aeronave-ProyFinal\.dockerignore

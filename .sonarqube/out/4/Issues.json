@@ -1,0 +1,362 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador de Microsoft (R) Visual C#",
+        "version": "4.3.0.0",
+        "fileVersion": "4.3.0-3.22365.10 (dd078d4e)",
+        "semanticVersion": "4.3.0",
+        "language": "es-ES"
+      },
+      "results": [
+        {
+          "ruleId": "CS0219",
+          "level": "warning",
+          "message": "La variable 'ClaseAsientoTest' está asignada pero su valor nunca se usa",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Joseluis/Documents/GitHub/ms-Aeronave-ProyFinal_JY/ms-Aeronave-ProyFinal/Aeronave.Test/Domain/Aeronave/AeronaveAsientos_Tests.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 11,
+                  "endLine": 17,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0219",
+          "level": "warning",
+          "message": "La variable 'UbicacionTest' está asignada pero su valor nunca se usa",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Joseluis/Documents/GitHub/ms-Aeronave-ProyFinal_JY/ms-Aeronave-ProyFinal/Aeronave.Test/Domain/Aeronave/AeronaveAsientos_Tests.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 11,
+                  "endLine": 18,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0219",
+          "level": "warning",
+          "message": "La variable 'NroSillaTest' está asignada pero su valor nunca se usa",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Joseluis/Documents/GitHub/ms-Aeronave-ProyFinal_JY/ms-Aeronave-ProyFinal/Aeronave.Test/Domain/Aeronave/AeronaveAsientos_Tests.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 11,
+                  "endLine": 19,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0219",
+          "level": "warning",
+          "message": "La variable 'EstadoAsientoTest' está asignada pero su valor nunca se usa",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Joseluis/Documents/GitHub/ms-Aeronave-ProyFinal_JY/ms-Aeronave-ProyFinal/Aeronave.Test/Domain/Aeronave/AeronaveAsientos_Tests.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 11,
+                  "endLine": 20,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS8600",
+          "level": "warning",
+          "message": "Se va a convertir un literal nulo o un posible valor nulo en un tipo que no acepta valores NULL",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Joseluis/Documents/GitHub/ms-Aeronave-ProyFinal_JY/ms-Aeronave-ProyFinal/Aeronave.Test/Aplication/UseCases/Command/CrearAeronaveCommand_Tests.cs",
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 21,
+                  "endLine": 41,
+                  "endColumn": 103
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Desreferencia de una referencia posiblemente NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Joseluis/Documents/GitHub/ms-Aeronave-ProyFinal_JY/ms-Aeronave-ProyFinal/Aeronave.Test/Aplication/UseCases/Command/CrearAeronaveCommand_Tests.cs",
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 19,
+                  "endLine": 43,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8600",
+          "level": "warning",
+          "message": "Se va a convertir un literal nulo o un posible valor nulo en un tipo que no acepta valores NULL",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Joseluis/Documents/GitHub/ms-Aeronave-ProyFinal_JY/ms-Aeronave-ProyFinal/Aeronave.Test/Aplication/UseCases/Queries/GetAeronaveByIdQuery_Tests.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 21,
+                  "endLine": 29,
+                  "endColumn": 103
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Desreferencia de una referencia posiblemente NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Joseluis/Documents/GitHub/ms-Aeronave-ProyFinal_JY/ms-Aeronave-ProyFinal/Aeronave.Test/Aplication/UseCases/Queries/GetAeronaveByIdQuery_Tests.cs",
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 32,
+                  "endLine": 31,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "El método asincrónico carece de operadores \"await\" y se ejecutará de forma sincrónica. Puede usar el operador 'await' para esperar llamadas API que no sean de bloqueo o 'await Task.Run(...)' para hacer tareas enlazadas a la CPU en un subproceso en segundo plano.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Joseluis/Documents/GitHub/ms-Aeronave-ProyFinal_JY/ms-Aeronave-ProyFinal/Aeronave.Test/Aplication/UseCases/Queries/ListAllAeronaveQueryHandler_Tests.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 23,
+                  "endLine": 27,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8600",
+          "level": "warning",
+          "message": "Se va a convertir un literal nulo o un posible valor nulo en un tipo que no acepta valores NULL",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Joseluis/Documents/GitHub/ms-Aeronave-ProyFinal_JY/ms-Aeronave-ProyFinal/Aeronave.Test/Domain/Aeronave/Values/AeronaveEstadoAsignacion_Tests.cs",
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 24,
+                  "endLine": 39,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8600",
+          "level": "warning",
+          "message": "Se va a convertir un literal nulo o un posible valor nulo en un tipo que no acepta valores NULL",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Joseluis/Documents/GitHub/ms-Aeronave-ProyFinal_JY/ms-Aeronave-ProyFinal/Aeronave.Test/Domain/Aeronave/Values/AeronaveEstados_Tests.cs",
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 22,
+                  "endLine": 42,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8600",
+          "level": "warning",
+          "message": "Se va a convertir un literal nulo o un posible valor nulo en un tipo que no acepta valores NULL",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Joseluis/Documents/GitHub/ms-Aeronave-ProyFinal_JY/ms-Aeronave-ProyFinal/Aeronave.Test/Domain/Aeronave/Values/AeronaveEstadoDisponibilidad_Tests.cs",
+                "region": {
+                  "startLine": 40,
+                  "startColumn": 22,
+                  "endLine": 40,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8620",
+          "level": "warning",
+          "message": "El argumento de tipo \"Func<It.IsAnyType, Exception, string>\" no se puede usar para el parámetro \"formatter\" de tipo \"Func<It.IsAnyType, Exception?, string>\" en \"void ILogger.Log<IsAnyType>(LogLevel logLevel, EventId eventId, IsAnyType state, Exception? exception, Func<IsAnyType, Exception?, string> formatter)\" debido a las diferencias en la nulabilidad de los tipos de referencia.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Joseluis/Documents/GitHub/ms-Aeronave-ProyFinal_JY/ms-Aeronave-ProyFinal/Aeronave.Test/Aplication/UseCases/Handler/CrearAeronaveHandler_Tests.cs",
+                "region": {
+                  "startLine": 109,
+                  "startColumn": 11,
+                  "endLine": 109,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CS0219": {
+          "id": "CS0219",
+          "shortDescription": "La variable está asignada pero nunca se usa su valor",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0219)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS1998": {
+          "id": "CS1998",
+          "shortDescription": "El método asincrónico carece de operadores \"await\" y se ejecutará de forma sincrónica",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS1998)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8600": {
+          "id": "CS8600",
+          "shortDescription": "Se va a convertir un literal nulo o un posible valor nulo en un tipo que no acepta valores NULL",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8600)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8602": {
+          "id": "CS8602",
+          "shortDescription": "Desreferencia de una referencia posiblemente NULL.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8602)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8620": {
+          "id": "CS8620",
+          "shortDescription": "El argumento no se puede usar para el parámetro debido a las diferencias en la nulabilidad de los tipos de referencia.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8620)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

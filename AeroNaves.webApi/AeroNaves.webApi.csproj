@@ -4,7 +4,12 @@
     <TargetFramework>net6.0</TargetFramework>
     <UserSecretsId>a91e3a8f-1023-4b3e-8fdd-f343d20f2460</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <CodeAnalysisRuleSet>..\.sonarlint\test-linter-jyujracsharp.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
+
+  <ItemGroup>
+    <AdditionalFiles Include="..\.sonarlint\test-linter-jyujra\CSharp\SonarLint.xml" Link="SonarLint.xml" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.16">

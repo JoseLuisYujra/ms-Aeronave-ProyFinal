@@ -26,21 +26,21 @@ namespace Aeronaves.Aplication.UseCases.Command.Aeronaves.CrearAeronave {
     /// Se implementa EventBus de RabbitMQ
     /// </summary>
     /// <param name="eventBus"></param>
-    private readonly IRabbitEventBus _eventBus;
+    //private readonly IRabbitEventBus _eventBus;
 
     public CrearAeronaveHandler(IAeronaveRepository aeronaveRepository,
         ILogger<CrearAeronaveHandler> logger,
         IAeoronaveService aeoronaveService,
         IAeronaveFactory aeronaveFactory,
-        IUnitOfWork unitOfWork,
-        IRabbitEventBus eventBus
+        IUnitOfWork unitOfWork
+        //IRabbitEventBus eventBus
         ) {
       _aeronaveRepository = aeronaveRepository;
       _logger = logger;
       _aeoronaveService = aeoronaveService;
       _aeronaveFactory = aeronaveFactory;
       _unitOfWork = unitOfWork;
-      _eventBus = eventBus;
+      //_eventBus = eventBus;
     }
 
     public async Task<Guid> Handle(CrearAeronaveCommand request, CancellationToken cancellationToken) {
@@ -60,7 +60,7 @@ namespace Aeronaves.Aplication.UseCases.Command.Aeronaves.CrearAeronave {
         await _unitOfWork.Commit();
 
         //Publicando RabbitMQ            
-        _eventBus.Publish(new AeronaveAgregadaEventoQueue(objaeronave.Id, request.Marca, request.Modelo, request.NroAsientos, objaeronave.EstadoAeronave, "Se Creo la Aeronave y se notifica al bus de eventos"));
+        //_eventBus.Publish(new AeronaveAgregadaEventoQueue(objaeronave.Id, request.Marca, request.Modelo, request.NroAsientos, objaeronave.EstadoAeronave, "Se Creo la Aeronave y se notifica al bus de eventos"));
 
         return objaeronave.Id;
       } catch (Exception ex) {

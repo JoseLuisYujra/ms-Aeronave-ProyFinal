@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
+    <CodeAnalysisRuleSet>..\.sonarlint\test-linter-jyujracsharp.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
 
   <ItemGroup>   
@@ -23,6 +24,10 @@
 
   <ItemGroup>
     <AssemblyAttribute Include="System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AdditionalFiles Include="..\.sonarlint\test-linter-jyujra\CSharp\SonarLint.xml" Link="SonarLint.xml" />
   </ItemGroup>
 
 </Project>

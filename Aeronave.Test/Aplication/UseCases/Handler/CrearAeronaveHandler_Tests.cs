@@ -62,8 +62,8 @@ namespace Aeronaves.Test.Aplication.UseCases.Handler {
          _logger.Object,
          _aeoronaveService.Object,
          _aeronaveFactory.Object,
-         _unitOfWork.Object,
-         _eventBus.Object
+         _unitOfWork.Object
+     //,         _eventBus.Object
      );
 
       var objRequest = new CrearAeronaveCommand(codAeronaveTest, marcaTest, modeloTest, nroasientosTest, capacidadcargaTest, captanquecombustibleTest, aereopuertoEstacionamientoTest, detalleAeronaveAsientosTest);
@@ -92,8 +92,8 @@ namespace Aeronaves.Test.Aplication.UseCases.Handler {
                                                 _logger.Object,
                                                 _aeoronaveService.Object,
                                                 _aeronaveFactory.Object,
-                                                _unitOfWork.Object,
-                                                _eventBus.Object
+                                                _unitOfWork.Object
+                                                  //,                                                _eventBus.Object
                                                   );
 
       var objRequest = new CrearAeronaveCommand(codAeronaveTest, marcaTest, modeloTest, nroasientosTest, capacidadcargaTest, captanquecombustibleTest, aereopuertoEstacionamientoTest, detalleAeronaveAsientosTest);

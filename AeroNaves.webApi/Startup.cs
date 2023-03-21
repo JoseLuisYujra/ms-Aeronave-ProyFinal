@@ -64,7 +64,7 @@ namespace AeroNaves.webApi {
       ///<Sumary>
       ///Se invoca al Consumer de RabbitMQ cliente            
       ///<Sumary>
-      app.RabbitMQConsumer();
+      //app.RabbitMQConsumer();
 
     }
   }

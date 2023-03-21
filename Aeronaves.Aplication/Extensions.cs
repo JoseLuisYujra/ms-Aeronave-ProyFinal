@@ -20,7 +20,7 @@ namespace Aeronaves.Aplication {
       services.AddTransient<IAeoronaveService, AeronaveService>();
       services.AddTransient<IAeronaveFactory, AeronaveFactory>();
 
-      AddRabbitMq(services);
+      //AddRabbitMq(services);
 
       return services;
     }
